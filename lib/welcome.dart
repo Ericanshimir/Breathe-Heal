@@ -14,7 +14,7 @@ class Welcome extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset('assets/logo.png'),
+              Image.asset('logo.png'),
               SizedBox(height: 20.0),
               Text(
                 'Welcome to the Breath and Heal app, where a warm and inviting space awaits you to connect with others on the journey to better mental health. Dive into a user-friendly environment that not only encourages meaningful interactions but also provides access to enriching educational resources. Explore the tools that empower you to understand your emotions, fostering a path to resilience and emotional well-being. Join us in creating a supportive community where healing begins',
