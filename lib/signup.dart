@@ -30,14 +30,11 @@ class _SignUpPageState extends State<SignUpPage> {
 
   void _submitForm() {
     if (_formKey.currentState!.validate()) {
-      // Perform sign-up logic here
       String name = _nameController.text;
       String email = _emailController.text;
       String password = _passwordController.text;
 
-      // Add your registration/authentication logic here
-
-      // For now, print the values to the console
+      
       print('Name: $name');
       print('Email: $email');
       print('Password: $password');
